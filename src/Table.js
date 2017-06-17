@@ -10,7 +10,7 @@ class Table extends Component {
       headers = data.headers;
     return (
 
-      <table>
+      <table className='tableApp'>
         <TableHeaders headers={headers}/>
         <TableRows rows={rows}/>
       </table>
